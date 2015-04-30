@@ -3,7 +3,7 @@
    "remote":      "github",
    "repository":  "Euphoria-OS/android_kernel_msm",
    "target_path": "kernel/asus/flo",
-   "revision":    "lollipop-flo"
+   "revision":    "lollipop-5.0-flo"
  },
  {
    "remote":      "github",
