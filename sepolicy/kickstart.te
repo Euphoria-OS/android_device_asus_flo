@@ -4,6 +4,10 @@ type kickstart_exec, file_type, exec_type;
 
 init_daemon_domain(kickstart)
 
+# DAC overrides
+allow kickstart self:capability dac_override;
+auditallow kickstart self:capability dac_override;
+
 # Run kickstart_checker.sh
 allow kickstart shell_exec:file rx_file_perms;
 allow kickstart kickstart_exec:file rx_file_perms;
