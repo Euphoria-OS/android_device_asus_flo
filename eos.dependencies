@@ -1,0 +1,8 @@
+[
+ {
+   "remote":      "github",
+   "repository":  "Euphoria-OS/android_external_stlport",
+   "target_path": "external/stlport",
+   "revision":    "marshmallow-6.0"
+ }
+]
