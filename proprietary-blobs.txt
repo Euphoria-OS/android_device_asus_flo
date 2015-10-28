@@ -42,11 +42,6 @@
 /system/bin/usbhub
 /system/bin/usbhub_init
 /system/etc/DxHDCP.cfg
-/system/etc/firmware/tzapps.b00
-/system/etc/firmware/tzapps.b01
-/system/etc/firmware/tzapps.b02
-/system/etc/firmware/tzapps.b03
-/system/etc/firmware/tzapps.mdt
 /system/etc/firmware/vidc.b00
 /system/etc/firmware/vidc.b01
 /system/etc/firmware/vidc.b02
@@ -54,8 +49,6 @@
 /system/etc/firmware/vidc.mdt
 /system/etc/firmware/vidcfw.elf
 /system/etc/firmware/vidc_1080p.fw
-/system/etc/firmware/wcd9310/wcd9310_anc.bin
-/system/etc/firmware/wcd9310/wcd9310_mbhc.bin
 /system/etc/gps.conf
 /system/vendor/lib/egl/eglsubAndroid.so
 /system/vendor/lib/egl/libEGL_adreno.so
@@ -91,6 +84,7 @@
 /system/lib/libdss.so
 /system/lib/libdsucsd.so
 /system/lib/libdsutils.so
+/system/lib/libDxHdcp.so
 /system/lib/libgps.utils.so
 /system/vendor/lib/libgsl.so
 /system/lib/libI420colorconvert.so
@@ -127,6 +121,7 @@
 /system/lib/libsensor_reg.so
 /system/lib/libsensor_user_cal.so
 /system/lib/libstagefright_hdcp.so
+/system/vendor/lib/libWVphoneAPI.so
 /system/lib/libxml.so
 /system/vendor/firmware/a300_pfp.fw
 /system/vendor/firmware/a300_pm4.fw
@@ -180,6 +175,7 @@
 /system/vendor/firmware/wcnss.b04
 /system/vendor/firmware/wcnss.b05
 /system/vendor/firmware/wcnss.mdt
+/system/vendor/lib/drm/libdrmwvmplugin.so
 /system/vendor/lib/libdrmdecrypt.so
 /system/vendor/lib/libgemini.so
 /system/vendor/lib/libgeofence.so
@@ -206,3 +202,7 @@
 /system/vendor/lib/libmmstillomx.so
 /system/vendor/lib/liboemcamera.so
 /system/vendor/lib/libqomx_jpegenc.so
+/system/vendor/lib/libwvdrm_L1.so
+/system/vendor/lib/libwvm.so
+/system/vendor/lib/libWVStreamControlAPI_L1.so
+/system/vendor/lib/mediadrm/libwvdrmengine.so
