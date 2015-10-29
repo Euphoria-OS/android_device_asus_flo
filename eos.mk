@@ -35,4 +35,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Copy device specific prebuilt files.
 PRODUCT_COPY_FILES += \
-    vendor/eos/prebuilt/common/bootanimations/BOOTANIMATION-SHAMU.zip:system/media/bootanimation.zip
+    vendor/eos/prebuilt/common/bootanimations/BOOTANIMATION-FLO.zip:system/media/bootanimation.zip
